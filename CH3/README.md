@@ -54,17 +54,19 @@ This chapter covers further use of printf and scanf with an emphasis on conversi
 
    > 20001010
    
-2. ### sphereVolume.c
-   This program calculates the volume for a user-given radius
+2. ###  productInfo.c
+   This program formats product information entered by the user.
 
-3. ### taxCalc.c
-   This program calculates and displays an amount of money with tax added for a user-given amount
+   
 
-4. ### poly.c
-   Calculates *3x^5 + 2x^4 - 5x^3 - x^2 + 7x - 6* for a user-given value of x
+3. ### ISBN.c
+   This program breaks an ISBN (International Standard Book Number) down into 5 groups: GS1, Group identifier, Publisher code, Item number and check digit.
 
-5. ### bills.c
-   This program works out the smallest number of notes/coins (twenties, tens, fivers and pounds) needed to pay a bill provided by the user
+4. ### phoneNum.c
+   Reformats an American phone number from (xxx) xxx-xxxx to xxx.xxx.xxxx.
 
-6. ### interest.c
-   This one works out the balance remaining on 
+5. ### magicSquare.c
+   Asks the user to enter 16 numbers and then formats those numbers into a 4x4 grid. It also calculates the sum of rows, columns and diagonals.
+
+6. ### addFrac.c
+   A modified version of the book's addFrac.c program that accepts two fractions from the user in the form "a/b+c/d"
