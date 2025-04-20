@@ -57,8 +57,6 @@ This chapter covers further use of printf and scanf with an emphasis on conversi
 2. ###  productInfo.c
    This program formats product information entered by the user.
 
-   
-
 3. ### ISBN.c
    This program breaks an ISBN (International Standard Book Number) down into 5 groups: GS1, Group identifier, Publisher code, Item number and check digit.
 
