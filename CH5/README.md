@@ -164,3 +164,28 @@ This takes a 24 hour time from the user and then relays the flight with the clos
 
     Enter a 24-hour time: 13:59
     Closest departure time is 14:00 a.m., arriving at 16:08 a.m.
+
+### 9. dateCompare.c
+
+Takes input of two dates from the user and prints a statement saying which is earlier than the other
+
+    Enter first date (dd/mm/yyyy): 10/10/2000
+    Enter second date (dd/mm/yyyy): 09/10/2000
+    09/10/2000 is earlier than 10/10/2000
+
+### 10. grade.c
+
+The user inputs a numerical grade and the program converts this to a letter grade (only allows values between 0-100)
+
+    Enter a numerical grade: 100
+    Letter grade: A
+
+    Enter a numerical grade: 101 
+    Grades must be between 0 and 100.
+
+### 11. writeNumber.c
+
+Outputs the written form of any two digit number provided by the user. Had to put some effort into getting rid of the dash when there's no second digit e.g. 60
+
+    Enter a two-digit number: 76
+    Seventy-Six
