@@ -223,4 +223,46 @@ Added a label:
     Enter a first and last name: Isaac Pemberton
     You entered the name: Pemberton, I.
 
-### 14.
+### 14. reverseSentence.c
+
+Reverses the words in a sentence:
+
+    Enter a sentence: you can cage a swallow can't you?
+    Reversal of sentence: you can't swallow a cage can you?
+
+### 15. caeser.c
+
+encrypts a message using a caesar cypher
+
+    Enter message to be encrypted: HELLO GOOD SIR!
+    Enter shift amount: 3
+    Encrypted message: KHOOR JRRG VLU!
+
+    Enter message to be encrypted: KHOOR JRRG VLU!
+    Enter shift amount: 23
+    Encrypted message: HELLO GOOD SIR!
+
+### 16. anagram.c
+
+tests if two words/phrases are anagrams:
+
+    Enter first word: smart fella
+    Enter second word: fart smella
+    The words are anagrams.
+
+### 17. magicSquare.c
+
+creates a magic square of a size specified by the user:
+
+    This program creates a magic square of a specified size.
+    The size must be an odd number between 1 and 99.
+    Enter the size of magic square: 9
+    47  58  69  80   1  12  23  34  45 
+    57  68  79   9  11  22  33  44  46 
+    67  78   8  10  21  32  43  54  56 
+    77   7  18  20  31  42  53  55  66 
+    6  17  19  30  41  52  63  65  76 
+    16  27  29  40  51  62  64  75   5 
+    26  28  39  50  61  72  74   4  15 
+    36  38  49  60  71  73   3  14  25 
+    37  48  59  70  81   2  13  24  35 
