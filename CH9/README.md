@@ -77,4 +77,99 @@ See ex11.c. This computes a GPA from a given set of grades:
     Enter Grades: ABCDFAAAA
     The GPA is 2.89
 
-### 12. 
+### 12. inner_product function
+
+    double inner_product(double a[], double b[], int n){
+        double sum = 0;
+        for (int i = 0; i < n; i++) 
+            sum += (a[i] * b[i]);
+        return sum;
+    }
+
+### 13. evaluate_position
+
+see ex13.c. This function will sum the point score for each chess players pieces and then find the difference between them.
+
+### 14. has_zero function error
+
+    bool has_zero(int a[], int n)
+    {
+        int i;
+
+        for (i = 0; i < n; i++)
+            if (a[i] == 0)
+                return true;
+            else 
+                return false;
+    }
+
+The problem with this function is that currently it will only check the first element of the array. 
+The else statement should be removed like below:
+
+    bool has_zero(int a[], int n)
+    {
+        int i;
+
+        for (i = 0; i < n; i++)
+            if (a[i] == 0)
+                return true; 
+        return false;
+    }
+
+### 15. median function refactor
+
+    double median(double x, double y, double z)
+    {   
+        if (x <= y)
+            if (y <= z) return y;
+            else if (x <= z) return z;
+            else return x;
+        if (z <= y) return y;
+        if (x <= z) return x;
+        return z;
+    }
+
+This can be condensed to:
+
+    double median(double x, double y, double z)
+    {   
+        double mid;
+        if ((x <= y && x >= z) || (x <= z && x >= y)) 
+            mid = x;
+        else if ((y <= x && y >= z) || (y <= z && y >= x))
+            mid = y;
+        else 
+            mid = z;
+        return mid;
+    }
+
+### 16. condense fact.c
+
+    int fact(int n) {
+        int result = 1;
+
+        while (--n > 0)
+            result *= n+1;
+        
+        return result;
+    }
+
+### 17. non recursive fact.c
+
+see above
+
+### 18. recursive gcd
+
+    int gcd(int m, int n) {
+        int remainder;
+        if (n == 0) 
+            return m;
+        else    
+            gcd(n, m % n);
+    }
+
+### 19. mystery pb function
+
+    this mystery function converts decimal integers to binary
+
+
