@@ -70,4 +70,11 @@ the output will be:
 
 see ex10.c which functions that compute the largest element, the average and the positive elements of an array
 
-### 11. 
+### 11. compute_GPA function
+
+See ex11.c. This computes a GPA from a given set of grades:
+
+    Enter Grades: ABCDFAAAA
+    The GPA is 2.89
+
+### 12. 
