@@ -172,4 +172,70 @@ see above
 
     this mystery function converts decimal integers to binary
 
+## Projects
+
+### 1. selectionSort.c
+
+Uses a recursive function to sort a series of integers smallest to largest. Works for any length up to 100
+
+    Enter a series of integers to be sorted: 9 8 7 6 5
+    5 6 7 8 9 
+
+### 2. tax.c updated
+
+This version uses a function compute_tax() that returns the amount of tax for a given income
+
+### 3. randWalk.c updated
+
+Uses a function to first generate the random walk array and then a second function to print it
+
+### 4. anagram.c updated
+
+Uses two functions now. One that reads a word and updates an array with the number of each letter in it. The other checks whether each array has the same values and returns a bool.
+
+### 5. magicSquare.c updated
+
+Updated to use two functions. One that creates the square and the other that prints it.
+
+### 6. polynomial.c
+has a function that calculates the value of a polynomial and then main outputs the answer;
+
+    Enter a value for x: 2
+    f(x) = 92
+
+
+### 7. power.c 
+
+Calculates x to the power of n recursively:
+
+    This program calculates x^n.
+    Enter x: 2
+    Enter n: 6
+    2^6 = 64
+
+### 8. craps.c
+
+This simulates as many games of craps as the user wishes until they stop typing y:
+
+    You rolled: 5
+    Your point is 5
+    you rolled: 2
+    you rolled: 5
+    you win!
+
+    play again? y
+
+    you rolled: 8
+    your point is 8
+    you rolled: 8
+    you win!
+
+    play again? y
+
+    you rolled: 3
+    you lose!
+
+    play again? n
+
+    wins: 2 losses: 1
 
