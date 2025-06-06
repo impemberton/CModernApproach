@@ -1,9 +1,9 @@
 #include <stdio.h>
+#define LEN 100
 
 int main(void) {
-    char sentence[100] = {0};
-    char terminator, c;
-    int i = 0;
+    char sentence[LEN] = {0}, *p = sentence, terminator, c;
+
 
     printf("Enter a sentence: ");
 
@@ -12,18 +12,17 @@ int main(void) {
             terminator = c;
             break;
         } else {
-            sentence[i] = c;
-            i++;
+            *p++ = c;
         }     
         
     }
     printf("Reversal of sentence: ");
 
     
-    for(int word_len = 0; i >= -1; i--, word_len++) {
-        if (sentence[i] == ' ' || i == -1) {
+    for(int word_len = 0; p >= sentence - 1; word_len++, p--) {
+        if (*p == ' ' || p == sentence - 1) {
             for(int j = 1; j < word_len; j++){
-                printf("%c", sentence[i + j]);
+                printf("%c", *(p + j));
             }
             printf(" ");
             word_len = 0;

@@ -186,3 +186,19 @@ Does the same as above only using pointers to keep track of letter positions:
     Palindrome
 
 3. 
+4. 3 and 4 I couldn't find a way to simplify further.
+
+5. reverseSentence.c 
+
+Modified to use pointers
+
+6. qsort.c 
+
+A modified version of qsort from chapter 9 that now uses pointers
+
+    Enter 10 numbers to be sorted: 43 78 38 37 27 96 39 37 94 48 
+    In sorted order: 27 37 37 38 39 43 48 78 94 96 
+
+7. maxmin.c
+
+Modified so the function, max_min now uses pointers.
