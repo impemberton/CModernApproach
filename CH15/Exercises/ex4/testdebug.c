@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define DEBUG
 #include "debug.h"
 
 int main(void) {
